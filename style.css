@@ -1,21 +1,52 @@
-h3{
-    color: yellow;
-    border: 5px solid black;
+h1{
+    color: aqua;
+    /* margin-top: 10px;
+    margin-left: 50px; */
+    
 }
 
-.blue{
-    color: blue;
+div{
+    /* background-color: lightpink; */
+    /* background-image: url("html.png"); */
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-width: 3px ; 
+    border-style: solid;
+border-radius: 30px;
+margin: auto;
+/* padding-top: 50px;
+padding-left: 10px; */
+/* top (left-right) bottom */
+/* padding: 10px 30px 10px; */
+/* left top right bottom */
+/* padding: 10px 50px 100px 10px; */
+padding: 2%;
+    /* background-repeat: repeat-y; */
 }
 
-#saket{
-    color: #df400b
+p{
+    text-align: left;
+    
+}
+a:hover {
+    color: hotpink;
+    background-color: gray;
 }
 
-img{
-    /* height: 100px; */
-    width: 100%;
-}
-
-/* nav{
-align: right;
+/* a:visited {
+    color: green;
 } */
+
+.justified{
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+    word-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 700;
+}
