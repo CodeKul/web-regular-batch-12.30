@@ -1,0 +1,66 @@
+.divClass .ulClass .liClass{
+color: red;
+}
+
+
+ul{
+    list-style-type: square;
+    /* list-style-image: url('html.png'); */
+    list-style-position: inside;
+}
+.outsideListing
+{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+.divClass ol{
+    list-style-type: upper-alpha;
+}
+
+.ulClass{
+    list-style-type: none;
+}
+.branch{
+    width: 100%;
+}
+.branch, th, td{
+    border: 1px solid black;
+    height: 50px;
+    vertical-align: bottom;
+}
+th{
+    /* padding: 10px; */
+   text-align: center;
+   vertical-align: bottom;
+   background-color: green;
+   color: white;
+}
+
+tr:hover{
+    /* background-color: pink; */
+}
+
+.divTable{
+    overflow-x: auto;
+}
+
+.divDisplay{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+  
+    margin: 30px;
+    /* display: inline; */
+    /* display: block; */
+    display: flex;
+    position: absolute;
+}
+button{
+    position: relative;
+}
+
+p{
+    text-align: center;
+}
+
